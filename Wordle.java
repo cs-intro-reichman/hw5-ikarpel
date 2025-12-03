@@ -18,7 +18,7 @@ public class Wordle {
     public static String chooseSecretWord(String[] dict) {
 		int n = dict.length;
         String word;
-        int randomNum = (int)(Math.random() * n+1);
+        int randomNum = (int)(Math.random() * n);
         word =dict[randomNum];
 
         return word;
